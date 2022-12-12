@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+#sajt{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#sajt h1{
+    color:wheat;
+    margin:0px auto;
+    font-size: 80px;
+    position:absolute;
+    left: 350px;
+    top: 150px; 
+    
+}
+#sajt p{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    color: yellow;
+}
+#igra{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    margin: 0px auto;
+    margin-top: 250px;
+    margin-bottom: 300px;
+    display: flex;
+}
+#igra h2{
+    padding-top: 150px;
+}
+#igra input{
+    padding-left: 50px;
+}
+#igra p{
+    padding: 150px 0px 0px 50px;
+    border: 1px solid black;
+    position: relative;
+    left: 30px;
+}
+#mod{
+    margin: 200px 150px 0px 0px;
+}
+
+.bela{
+    background-color: rgb(109, 109, 109);
+}
+
+.crna{
+    background-color: rgb(66, 66, 66);
+}
+
+.crvena{
+    background-color: red;
+}
+
+.zelena{
+    background-color: green;
+}

@@ -1,0 +1,22 @@
+<rss version="2.0">
+	<channel>
+		<title>FrontEnd Logic</title>
+		<link>https://andrija2515.github.io/index.html</link>
+		<description>News from the main page of the site.</description>
+	</channel>
+    <item>
+        <title>Services</title>
+        <link>https://andrija2515.github.io/contact.html</link>
+        <description>News about contact.</description>
+    </item>
+    <item>
+        <title>Author</title>
+        <link>https://andrija2515.github.io/author.html</link>
+        <description>News about author.</description>
+    </item>
+    <item>
+        <title>Services</title>
+        <link>https://andrija2515.github.io/details.html</link>
+        <description>News about item details.</description>
+    </item>
+</rss>

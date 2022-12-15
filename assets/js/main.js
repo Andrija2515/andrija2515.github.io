@@ -299,7 +299,7 @@ if(path == "contact.html"){
     //Regular expressions
     var regTitle = /(.{3})+/
     var regMail = /^[a-z]+([\.]?[a-z]*[\d]*)*\@[a-z]+([\.]?[a-z]+)*(\.[a-z]{2,3})+$/
-    var regName = /^([A-Z][a-z]{2,10})\s([A-z][a-z]{3,15})$/
+    var regName = /^([A-Z][a-z]{2,10})\s([A-Z][a-z]{3,15})$/
     var regMsg = /(.{10})+/
 
     //Form validation

@@ -418,13 +418,13 @@ Header Style
   z-index: 999;
 }
 
-.header-area .main-nav .navmenu .nav li {
+.header-area .main-nav .nav li {
   padding-left: 10px;
   padding-right: 10px;
   display: inline-block;
 }
 
-.header-area .main-nav .navmenu .nav li a {
+.header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -440,26 +440,26 @@ Header Style
   letter-spacing: 1px;
 }
 
-.header-area .main-nav .navmenu .nav li.has-sub ul.sub-menu li:last-child a:hover,
-.background-header .main-nav .navmenu .nav li.has-sub ul.sub-menu li:last-child a:hover {
+.header-area .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover,
+.background-header .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover {
   padding-left: 25px !important;
 }
 
-.header-area .main-nav .navmenu .nav li:hover a{
+.header-area .main-nav .nav li:hover a{
   color: #fff;
   background-color: #3e2991; /*#7453fc*/
 }
-.header-area .main-nav .navmenu .nav li a.active{
+.header-area .main-nav .nav li a.active{
   background-color: #7453fc;
 }
 
-.background-header .main-nav .navmenu .nav li:hover a,
-.background-header .main-nav .navmenu .nav li a.active {
+.background-header .main-nav .nav li:hover a,
+.background-header .main-nav .nav li a.active {
   color: #fff;
   opacity: 1;
 }
 
-.header-area .main-nav .navmenu .nav li.has-sub {
+.header-area .main-nav .nav li.has-sub {
   position: relative;
   padding-right: 15px;
 }
@@ -598,9 +598,10 @@ Header Style
 }
 
 @media (max-width: 992px) {
-  .header-area {
+  .header-area{
     top: 0;
   }
+
   .header-area .main-nav {
     background-color: transparent;
     border-radius: 0px;

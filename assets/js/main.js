@@ -5,7 +5,7 @@ var path = window.location.pathname.split("/").pop();
 let navTitles = ["Home","Author","Contact Us"];
 let navLinks = ["index.html","author.html","contact.html"];
 var navDiv = document.querySelector(".navmenu");
-var navmenu ='<ul class="nav">';
+var navmenu ='<ul>';
 for(let i=0; i < navTitles.length; i++){
     navmenu += `<li><a href="${navLinks[i]}"`; 
     if(navLinks[i] == "index.html"){

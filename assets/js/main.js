@@ -172,7 +172,7 @@ if(path == "index.html" || path == ""){
                         Difficulty<br><strong>${iteDiff[i]}</strong>
                         </span>
                         <div class="text-button" id="${iteId[i]}">
-                        <a href="details.html">View Item Details</a>
+                        <a href="details.html#dets">View Item Details</a>
                         </div>
                     </div>
                     </div>

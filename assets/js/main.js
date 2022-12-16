@@ -270,7 +270,7 @@ if(path == "details.html"){
     }
     advDiv.innerHTML = adv;
 
-    var regMail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    var regMail = /^[a-z]+([\.]?[a-z]*[\d]*)*\@[a-z]+([\.]?[a-z]+)*(\.[a-z]{2,3})+$/
 
     var formMail = document.querySelector("#mymail");
     formMail.addEventListener("blur",function(){

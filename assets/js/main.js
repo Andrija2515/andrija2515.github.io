@@ -324,7 +324,20 @@ if(path == "contact.html"){
     })
 
     var formRadio = document.getElementsByName("msgtype");
-
+    formRadio.forEach(element => element.addEventListener("change",function(){
+        for(let i= 0; i <formRadio.length; i++){
+            if(formRadio[i].checked){
+                formRadio[2].nextElementSibling.nextElementSibling.classList.remove("errShow");
+                formRadio[2].nextElementSibling.nextElementSibling.classList.add("errHide");
+                break;
+            }
+            else{
+                formRadio[2].nextElementSibling.nextElementSibling.classList.remove("errHide");
+                formRadio[2].nextElementSibling.nextElementSibling.classList.add("errShow");
+            }
+        }
+    }))
+    
     var formCheck = document.querySelector("#agree");
     formCheck.addEventListener("change",function(){
         if(formCheck.checked){

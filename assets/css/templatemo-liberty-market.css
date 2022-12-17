@@ -2142,6 +2142,7 @@ Create Page Style
 .succColor{
   color: green;
   padding-top: 20px;
+  margin-bottom: 0px !important;
 }
 
 .succHide{
